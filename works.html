@@ -66,13 +66,13 @@ https://www.megapx.com/contact.htmlよりお問い合わせください。
 
 
 <div id="sub_top" class="works">
-Works
+Entertainment
 </div>
 
 <div class="pankuzu">
 <ul>
 <li><a href="index.html"><i class="fas fa-home"></i>HOME</a></li>
-<li>施工事例</li>
+<li>エンターテイメント</li>
 </ul>
 </div>
 
@@ -82,7 +82,7 @@ Works
 
 
 <div class="cont_wrap effect">
-<h2>施工事例</h2>
+<h2>エンターテイメント</h2>
 <p>これはイメージ確認用のサンプル文言になります。適当な文言に置き換えてお使いください。</p>
 
 <div class="pager effect">
@@ -97,75 +97,20 @@ Works
   </ul>
 </div>
 
-<ul class="works_list">
-
-<li><a href="sub_page.html">
-<span>Reform</span>
-<img src="img/sample_001.jpg" alt="サンプルイメージ">
-<p>東京都 A様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span class="cl_2">Renovation</span>
-<img src="img/sample_003.jpg" alt="サンプルイメージ">
-<p>神奈川県 B様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span class="cl_3">NEW</span>
-<img src="img/sample_004.jpg" alt="サンプルイメージ">
-<p>長野県 C様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span>Reform</span>
-<img src="img/sample_005.jpg" alt="サンプルイメージ">
-<p>千葉県 D様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span class="cl_2">Renovation</span>
-<img src="img/sample_003.jpg" alt="サンプルイメージ">
-<p>神奈川県 B様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span>Reform</span>
-<img src="img/sample_005.jpg" alt="サンプルイメージ">
-<p>千葉県 D様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span class="cl_2">Renovation</span>
-<img src="img/sample_001.jpg" alt="サンプルイメージ">
-<p>東京都 A様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span class="cl_3">NEW</span>
-<img src="img/sample_004.jpg" alt="サンプルイメージ">
-<p>長野県 C様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span>Reform</span>
-<img src="img/sample_005.jpg" alt="サンプルイメージ">
-<p>千葉県 D様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span class="cl_2">Renovation</span>
-<img src="img/sample_001.jpg" alt="サンプルイメージ">
-<p>東京都 A様邸</p>
-</a></li>
-
-<li><a href="sub_page.html">
-<span>Reform</span>
-<img src="img/sample_003.jpg" alt="サンプルイメージ">
-<p>神奈川県 B様邸</p>
-</a></li>
-
-</ul>
+<input id="omikuji_btn" type="button" value="おみくじを引く">
+    <script>
+        document.getElementById( "omikuji_btn" ).onclick = function() {
+            var rnd = Math.floor( Math.random() * 6 );
+            var omikuji;
+            if (rnd === 0) omikuji = "大吉　あなたはとってもついてる！きょうはハッピーな日になりそう！";
+            if (rnd === 1) omikuji = "吉　あなたはかなりついてる！きょうはいろんなことがうまくいきそう！";
+            if (rnd === 2) omikuji = "中吉　あなたはまあまあついてる！きょうはいろんなことに挑戦してみよう！";
+            if (rnd === 3) omikuji = "小吉　あなたはちょっとついてる！地道に努力していけばいつかは吉になるかも...";
+            if (rnd === 4) omikuji = "末吉　あなたはちょっとついてない！今日できなくても明日できるようになればいい！";
+            if (rnd === 5) omikuji = "凶　あなたはついてない！一つ一つの判断を慎重に！";
+            alert(omikuji);
+        }
+    </script>
 
 
 <div class="pager effect">
