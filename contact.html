@@ -89,6 +89,8 @@ Contact us
 これはイメージ確認用のサンプル文言になります。適当な文言に置き換えてお使いください。</p>
 
 <form action="php/mailform.php" method="post" id="mail_form">
+<input type="hidden" NAME="_to" VALUE="sanaryu1225@gmail.com">
+<input type="hidden" NAME="_subject" VALUE="尾身お問い合わせより">
 	<dl>
 		<dt>会社名<span>Company Name</span></dt>
 		<dd><input type="text" id="company" name="company" value="" /></dd>
@@ -100,7 +102,7 @@ Contact us
 		<dd><input type="text" id="read_1" name="read_1" value="" /> <input type="text" id="read_2" name="read_2" value="" /></dd>
 		
 		<dt>メールアドレス<span>Mail Address</span></dt>
-		<dd class="required"><input type="email" id="mail_address" name="mail_address" value="" /></dd>
+		<dd class="required"><input type="text" NAME="_from" value=""></dd>
 		
 		<dt>メールアドレス<br />(確認用)<span>Mail Address Confirm</span></dt>
 		<dd class="required"><input type="email" id="mail_address_confirm" name="mail_address_confirm" value="" /></dd>
