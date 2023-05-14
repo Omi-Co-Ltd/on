@@ -1,3 +1,5 @@
+alert(test)
+
 $('.effect').on('inview', function() {
 	 var $item = $(this);
 	 $item.addClass('start');
